@@ -1,0 +1,26 @@
+{
+    "name": "apps-double-cat/laravel-shopify",
+    "description": "Laravel x Shopify [PHP8 - Laravel 8]",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^8.12",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DoubleC\\LaravelShopify\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DoubleC\\LaravelShopify\\LaravelShopifyServiceProvider"
+            ]
+        }
+    }
+}

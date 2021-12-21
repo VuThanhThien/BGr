@@ -1,0 +1,115 @@
+body {
+    background-color: #1a202c;
+    font-family: "Open Sans", sans-serif;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 0;
+}
+
+.card-header {
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.card-header h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding: 0.9em 0.9em 0.6em;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #173d50;
+}
+
+.card-header .price {
+    text-align: center;
+}
+
+.card-header .price .currency {
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: top;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1bbc9d;
+}
+
+.card-header .price .value {
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.card-header .price .duration {
+    color: #1bbc9d;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.card-header .price .duration::before {
+    content: '/';
+    margin-right: 2px;
+}
+
+.card-body ul {
+    width: 70%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.card-body ul li {
+    text-align: left;
+    float: none;
+    width: auto;
+    padding: .8em;
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-body ul li i {
+    margin-right: 10px;
+    color: #ccc;
+}
+
+.card-body .subscription-btn {
+    display: block;
+    margin: 30px auto;
+    border-radius: 8px;
+    font-size: 17px;
+    text-indent: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all .6s;
+    width: 70%;
+    color: #1bbc9d;
+    padding: 1em 2em;
+    border: 2px solid #1bbc9d;
+}
+
+.card-body .subscription-btn:hover {
+    background-color: #1bbc9d;
+    color: #ffffff;
+}
+
+.current-plan {
+    border: 3px solid #1bbc9d !important;
+}
+
+.current-plan .card-header h2::after {
+    content: " - Current";
+    color: #1bbc9d;
+}
+
+.current-plan .subscription-btn {
+    background-color: #1bbc9d;
+    color: #fff;
+}

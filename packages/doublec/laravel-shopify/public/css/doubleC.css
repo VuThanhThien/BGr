@@ -1,0 +1,181 @@
+body {
+  background-color: #1a202c;
+}
+
+/**
+ * |-------------------
+ * |-------------------
+ * HEADER
+ */
+.doubleC-main-session {
+  /**
+   * |-------------------
+   * |-------------------
+   * INSTALL CONTAINER
+   */
+}
+.doubleC-main-session .brand-logo {
+  width: auto;
+  height: 250px;
+}
+.doubleC-main-session .brand-logo img {
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+}
+.doubleC-main-session .install-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.doubleC-main-session .install-container label {
+  color: white;
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 1;
+  vertical-align: top;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+}
+.doubleC-main-session .install-container input {
+  display: block;
+  border: 1px solid #2c2e33;
+  font-weight: normal;
+  font-size: 0.875rem;
+  text-align: center;
+  padding: 0.625rem 0 0.6875rem 0;
+  background-color: #2A3038;
+  color: #495057;
+  outline: none;
+  width: 100%;
+  transition: all 0.15s ease;
+}
+.doubleC-main-session .install-container input:focus {
+  border-color: #7efff5;
+  color: #7efff5;
+}
+.doubleC-main-session .install-container input::placeholder {
+  text-transform: uppercase;
+  color: #495057;
+}
+.doubleC-main-session .install-container button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.625rem 1rem;
+  color: #495057;
+  width: auto;
+  border-radius: 0;
+  transition: all 0.15s ease;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  border: 1px solid #2A3038;
+  background-color: #2A3038;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+.doubleC-main-session .install-container button:active, .doubleC-main-session .install-container button:visited, .doubleC-main-session .install-container button:focus {
+  border-color: #7efff5;
+  outline: none;
+}
+@media (min-width: 1200px) {
+  .doubleC-main-session .install-container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 992px) {
+  .doubleC-main-session .install-container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 768px) {
+  .doubleC-main-session .install-container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 576px) {
+  .doubleC-main-session .install-container {
+    max-width: 540px;
+  }
+}
+
+/**
+ * |-------------------
+ * |-------------------
+ * Container
+ */
+.doubleC-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+  .doubleC-container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 992px) {
+  .doubleC-container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 768px) {
+  .doubleC-container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 576px) {
+  .doubleC-container {
+    max-width: 540px;
+  }
+}
+/**
+ * |-------------------
+ * |-------------------
+ * Component
+ */
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  border: 2px solid transparent;
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #595e66;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.alert.alert-danger {
+  background-color: #fcedea;
+  border-color: #f8d5ce;
+}
+.alert.alert-info {
+  background-color: #bdecf5;
+  border-color: #92edfd;
+}
+
+/**
+ * |-------------------
+ * |-------------------
+ * ANIMATION
+ */
+.fadeInDown {
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+/*# sourceMappingURL=doubleC.css.map */

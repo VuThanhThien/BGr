@@ -1,0 +1,144 @@
+.header-mobile-fixed .wrapper {
+    padding-top: 65px !important;
+}
+.card{
+    border-radius: 1rem !important;
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%) !important;
+}
+.card .card-header{
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
+}
+.card .card-footer{
+    border-bottom-left-radius: 1rem !important;
+    border-bottom-right-radius: 1rem !important;
+}
+.vue-daterange-picker{
+    width: 100%;
+  }
+.vue-daterange-picker .reportrange-text{
+    border-color: #E4E6EF !important;
+    color: #3F4254 !important;
+}
+.vs__dropdown-toggle{
+    padding: 5px 0px !important;
+    background-color: #F3F6F9 !important;
+    border-color: #E4E6EF !important;
+    color: #3F4254 !important;
+}
+.vs__search::placeholder{
+    color: #B5B5C3 !important;
+}
+.vs__actions .vs__open-indicator{
+    display: none !important;
+}
+.sort-field{
+    cursor: pointer;
+}
+.calendars{
+    flex-wrap: nowrap !important;
+    height: 350px;
+}
+.input-group{
+    height: calc(1.5em + 1.65rem + 2px);
+}
+.vue-daterange-picker > .form-control, .form-control-custom{
+    height: calc(1.5em + 1.65rem + 2px) !important;
+}
+.vue-daterange-picker .form-control > p {
+    margin-top: 4px;
+}
+.custom-select {
+    height: unset !important;
+}
+.input-group{
+    height: calc(1.5em + 1.65rem + 2px);
+}
+.label-bixgrow{
+    color: #ff9900 !important;
+    background-color: #fff0dc !important;
+}
+.text-brand{
+    color:#3f4254 !important;
+}
+.bg-bixgrow{
+    background-color: #ff9900 !important;
+}
+.nav-item-bixgrow > .nav-link.active{
+    background-color: #3F4254 !important;
+}
+.nav-item-bixgrow >  .nav-link:hover:not(.disabled)
+{
+    color: #ff9900 !important;
+}
+.nav-item-bixgrow >  .nav-link.active:hover{
+    color:  #fff !important;
+}
+.pagination{
+    gap: 0.75rem ;
+}
+.pagination .page-item .page-link{
+    border-radius: 0.42rem !important;
+}
+.panel-body {
+    border-radius: 5px;
+    width: 50%;
+  }
+  .panel-body .wrapper {
+    padding: 0 !important;
+  }
+.vue-form-gen .form-group .field-wrap .wrapper .form-control{
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.325rem) center;
+    background-size: calc(0.75em + 0.65rem) calc(0.75em + 0.65rem);
+    height: auto !important;
+    padding: 1rem !important;
+    border-radius: 0.85rem !important;
+}
+.vue-form-gen .form-group{
+    margin-bottom: 1.25rem;
+}
+#form_generator .field-checkbox{
+    display: flex ;
+    align-items: center;
+    gap: 1rem;
+}
+#form_generator .field-checkbox > label {
+    order: 2 ;
+}
+#form_generator .field-checkbox .field-wrap{
+    order : 1 ;
+}
+#form_generator .field-checkbox .field-wrap > input{
+    height: 20px;
+    width: 20px;
+}
+.vue-form-gen  .error .field-wrap .wrapper .form-control{
+    border: solid 0.2px #F64E60 !important;
+}
+.vue-form-gen  .error .errors > span, .vue-form-generator  .error .errors > span{
+    color: #F64E60 !important;
+}
+.vue-form-gen .required label::after{
+    content: '*' !important;
+    color: #F64E60;
+}
+.btn.btn-pinterest{
+    color: #ffffff;
+    background-color: #e60023;
+    border-color: #e60023;
+}
+.btn.btn-pinterest:hover{
+    color: #ffffff;
+    background-color: #c7011e;
+    border-color: #c7011e;
+}
+.cancel-filter-date {
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    width: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
